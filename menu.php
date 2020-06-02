@@ -6,6 +6,6 @@ foreach ($menu_item as $menu){
 }
 ?>
 <?php
-echo "<flex class='color'>"."Время и дата: ".date('d.m.Y H.i')."</flex>";
-echo "<flex class='color'>"."IP: ".$_SERVER['REMOTE_ADDR']."</flex>";
+echo "<class='color'>"."Время и дата: ".date('d.m.Y H.i')."</flex>";
+echo "<class='color'>"."IP: ".$_SERVER['REMOTE_ADDR']."</flex>";
 ?>
